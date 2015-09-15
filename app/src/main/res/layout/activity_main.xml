@@ -2,8 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
-
+    android:background="@drawable/ccb633ef634927a53ceb73570856b70e"
+    android:paddingTop="80dp">
+    <!--上边的paddingTop 本来是?android:attr/actionBarSize,尺寸不对-->
     <EditText
         android:id="@+id/et_message"
         android:layout_width="0dp"
@@ -15,7 +16,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        android:onClick="sendMessage"/>
+        android:onClick="sendMessage"
+        android:text="@string/button_send" />
 
 </LinearLayout>
